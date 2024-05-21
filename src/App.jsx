@@ -15,7 +15,7 @@ function App() {
     event.preventDefault();
 
     if (text && author) {
-      let apiUrl = "http://localhost:1337/api/quotes";
+      let apiUrl = "https://quote-strapi-api.onrender.com/api/quotes";
 
       let requestObject = {
         method: "POST",
